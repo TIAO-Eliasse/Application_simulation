@@ -16,5 +16,5 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 if st.button("Continuez"):
-    st.switch_page("C:\Users\elias\Desktop\Application_MES\Pages\1_AnalyseExploratoire.py")
+    st.switch_page("C://Users//elias//Desktop//Application_MES//Pages//1_AnalyseExploratoire.py")
 
