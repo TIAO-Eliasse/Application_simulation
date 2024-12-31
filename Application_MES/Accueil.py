@@ -17,4 +17,4 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 if st.button("Continuez"):
-    st.switch_page("Pages/1_Applica_MES.py")
+    st.switch_page("Pages/1_AnalyseExploratoire.py")
