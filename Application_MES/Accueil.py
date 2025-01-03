@@ -16,5 +16,9 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
+def data_dir(data_name):
+    main=os.path.dirname(__file__)
+    return os.path.join(main,data_name)
 if st.button("Continuez"):
     st.switch_page("pages/1_AnalyseExploratoire.py")
