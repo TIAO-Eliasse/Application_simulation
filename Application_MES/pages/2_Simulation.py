@@ -7,7 +7,11 @@ from linearmodels.system import SUR
 from statsmodels.tools import add_constant
 
 st.write("Bienvenue dans la partie simulation")
-base=pd.read_excel("base_final.xlsx")
+from Accueil import data_dir
+data_path=data_dir("base_final.xlsx")
+base=pd.read_excel(data_path)
+
+#base=pd.read_excel("base_final.xlsx")
 
 
 
