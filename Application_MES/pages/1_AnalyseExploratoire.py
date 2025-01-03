@@ -34,10 +34,15 @@ Secteur_activite = st.sidebar.selectbox(
 
 
 ## Analyse exploratoire par secteur
-  def load_data():
-         data_path=data_dir('base_final.xlsx')
-         return pd.read_excel(data_path,sheet_name="Feuil2")
-  data = load_data()
+  #def load_data():
+         #data_path=data_dir('base_final.xlsx')
+         #return pd.read_excel(data_path,sheet_name="Feuil2")
+  #data = load_data()
+
+## Analyse exploratoire par secteur
+from Accueil import data_dir
+data_path=data_dir("base_final.xlsx")
+data=pd.read_excel(data_path,sheet_name="Feuil2")
 
 #data=pd.read_excel("base_final.xlsx", sheet_name="Feuil2")
 
