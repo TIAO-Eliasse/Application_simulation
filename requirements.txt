@@ -3,6 +3,7 @@ linearmodels
 matplotlib
 pandas==2.2.3
 plotly==5.9.0
+plotly.graph_objects
 seaborn==0.13.2
 statsmodels
 streamlit==1.39.0
