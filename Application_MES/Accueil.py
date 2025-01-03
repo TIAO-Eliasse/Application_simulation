@@ -7,7 +7,7 @@ def data_dir(data_name):
 imag_path=data_dir("OIP.jpg")
 st.write("###                                     Theme")
 st.write("##### Mecanisme de transmissions des flucutuations des prix de pétroles dans l'économie de la Guinée Equatoriale")
-#st.image(Image.open(imag_path), caption="Guinée Equatoriale", use_column_width=True)
+st.image(Image.open(imag_path), caption="Guinée Equatoriale", use_column_width=True)
 
 st.markdown("Cette application a été réalisé par:")
 
