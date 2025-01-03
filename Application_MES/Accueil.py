@@ -1,8 +1,7 @@
 import streamlit as st
-st.title("Application Simulation ")
 st.write("###                                     Theme")
 st.write("##### Mecanisme de transmissions des flucutuations des prix de pétroles dans l'économie de la Guinée Equatoriale")
-
+st.image("OIP.jpg", caption="Guinée Equatoriale", use_column_width=True)
 st.markdown("Cette application a été réalisé par:")
 
 st.write(" TIAO Eliasse")
@@ -17,5 +16,5 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
-#if st.button("Continuez"):
-    #st.switch_page("pages/1_AnalyseExploratoire.py")
+if st.button("Continuez"):
+    st.switch_page("pages/1_AnalyseExploratoire.py")
