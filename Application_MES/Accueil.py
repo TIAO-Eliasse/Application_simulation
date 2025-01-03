@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 st.write("###                                     Theme")
 st.write("##### Mecanisme de transmissions des flucutuations des prix de pétroles dans l'économie de la Guinée Equatoriale")
 st.image("OIP.jpg", caption="Guinée Equatoriale", use_column_width=True)
