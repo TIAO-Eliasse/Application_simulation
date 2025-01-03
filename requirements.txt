@@ -1,4 +1,3 @@
-numpy
 linearmodels
 matplotlib
 pandas==2.2.3
